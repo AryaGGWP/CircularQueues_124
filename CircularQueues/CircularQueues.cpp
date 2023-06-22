@@ -27,6 +27,13 @@ public:
             Front = 0;
             Rear = 0;
         }
+        else {
+            // Jika Rear berada di posisi terkhir array, kembali ke awal array
+            if (Rear == max - 1)
+                Rear = 0;
+            else
+                Rear = Rear + 1;
+        }
     }
 };
 
