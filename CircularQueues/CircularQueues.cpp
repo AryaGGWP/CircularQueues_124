@@ -44,6 +44,12 @@ public:
             return;
         }
         cout << "\nThe Element deleted from the queue is: " << queue_array[Front] << "\n";
+
+        // Cek Jika antrian hanya memiliki satu elemen
+        if (Front == Rear) {
+            Front = -1;
+            Rear = -1;
+        }
     }
 };
 
