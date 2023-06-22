@@ -36,6 +36,10 @@ public:
         }
         queue_array[Rear] = num;
     }
+
+    void remove() {
+        //cek apakah antrian kosong
+    }
 };
 
 int main()
