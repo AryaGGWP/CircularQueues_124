@@ -34,6 +34,7 @@ public:
             else
                 Rear = Rear + 1;
         }
+        queue_array[Rear] = num;
     }
 };
 
