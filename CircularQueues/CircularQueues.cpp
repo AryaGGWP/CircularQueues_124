@@ -58,6 +58,15 @@ public:
                 Front = Front + 1;
         }
     }
+
+    void display() {
+        int Front_position = Front;
+        int Rear_position = Rear;
+        
+        // Cek apakah antrian kosong 
+    }
+
+
 };
 
 int main()
