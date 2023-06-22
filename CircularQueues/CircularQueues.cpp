@@ -68,6 +68,16 @@ public:
             cout << "Queue is empty\n";
             return;
         }
+
+        cout << "\nElements in the queue are...\n";
+
+        //jika Front_position <= Rear_position, iterasi dari front hingga Rear
+        if (Front_position <= Rear_position) {
+            while (Front_position <= Rear_position) {
+                cout << queue_array[Front_position] << "   ";
+                Front_position++;
+            }
+        }
     }
 
 
